@@ -1,9 +1,6 @@
+#import "RNLocalSearch.h"
 
-#import "RNLocalSearchManager.h"
-
-@implementation LocationSearchManager
-
-@synthesize bridge = _bridge;
+@implementation RNLocalSearch
 
 RCT_EXPORT_MODULE()
 
