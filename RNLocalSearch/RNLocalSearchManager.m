@@ -1,6 +1,5 @@
 
-
-#import "LocationSearchManager.h"
+#import "RNLocalSearchManager.h"
 
 @implementation LocationSearchManager
 
