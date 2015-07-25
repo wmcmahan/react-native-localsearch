@@ -1,6 +1,6 @@
 'use strict';
 
 var { NativeModules } = require('react-native');
-var RCTNativeLocalSearch = NativeModules.LocationSearchManager;
+var RNLocalSearch = NativeModules.RNLocalSearch;
 
-module.exports = RCTNativeLocalSearch;
+module.exports = RNLocalSearch;
