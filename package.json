@@ -1,14 +1,19 @@
 {
   "name": "React-Native-LocalSearch",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React Native Module for MapKit Local Search",
   "main": "RCTLocalSearch.ios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios"
+  ],
   "author": "Will McMahan",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "0.7.1"
+    "react-native": "0.8.0"
   }
 }
