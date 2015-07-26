@@ -1,6 +1,6 @@
 {
   "name": "react-native-localsearch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Native Module for MapKit Local Search",
   "main": "RNLocalSearch.ios.js",
   "scripts": {
