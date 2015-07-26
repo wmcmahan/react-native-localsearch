@@ -2,7 +2,7 @@
   "name": "react-native-localsearch",
   "version": "0.0.1",
   "description": "React Native Module for MapKit Local Search",
-  "main": "RCTLocalSearch.ios.js",
+  "main": "RNLocalSearch.ios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
