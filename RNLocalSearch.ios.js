@@ -1,6 +1,5 @@
 'use strict';
 
-var { NativeModules } = require('react-native');
-var RNLocalSearch = NativeModules.RNLocalSearch;
+import { NativeModules} from 'react-native'
 
-module.exports = RNLocalSearch;
+exports.RNLocalSearch = NativeModules.RNLocalSearch;
