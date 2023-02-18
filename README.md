@@ -1,16 +1,30 @@
 # React-Native-LocalSearch
 React Native Module for IOS MapKit Local Search
 
-## Install
+## Prerequisites
+This module requires `react-native-maps` as a peer dependency. Run the following first if it is not an existing dependency.
+
+```bash
+npm install --save react-native-maps
 ```
+
+## Install
+
+```bash
 npm install --save react-native-localsearch
 ```
-Then add RNLocalSearch to project libraries.
+
+After install, also run `pod install` for auto linking.
+
+```bash
+cd ios/ && pod install
+```
+
 
 ## Usage
 
 ```javascript
-var RNLocalSearch = require('react-native-localsearch');
+import { RNLocalSearch } from 'react-native-localsearch';
 
 RNLocalSearch.searchForLocations(searchString, region, callback(err, resp) => {});
 ```
@@ -18,7 +32,7 @@ RNLocalSearch.searchForLocations(searchString, region, callback(err, resp) => {}
 ## Example
 
 ```javascript
-var RNLocalSearch = require('react-native-localsearch');
+import { RNLocalSearch } from 'react-native-localsearch';
 
 const region = {
 	latitude: 30.2669444,
@@ -27,5 +41,5 @@ const region = {
 	longitudeDelta: 0.1
 };
 
-RNLocalSearch.searchForLocations('Lalas', region, callback(err, resp) => {});
+RNLocalSearch.searchForLocations('restaurants', region, callback(err, resp) => {});
 ```

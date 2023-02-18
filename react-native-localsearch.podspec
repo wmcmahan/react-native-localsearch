@@ -26,3 +26,4 @@
   },
   "homepage": "https://github.com/wmcmahan/React-Native-LocalSearch"
 }
+
